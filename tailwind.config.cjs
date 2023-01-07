@@ -11,7 +11,8 @@ module.exports = {
       padding: '4rem'
     },
     colors: {
-      'blue': '#1c3879'
+      'blue': '#1c3879',
+      'white': '#ffffff'
     }
   },
   plugins: [],
