@@ -3,11 +3,11 @@
     "title": "NextJs for Beginer",
     "instructor": "Mosh Hamedani",
     "image": "image link",
-    "duration": 3000,
+    "duration": 382,
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -17,7 +17,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -27,7 +27,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -37,7 +37,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -47,7 +47,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -57,7 +57,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -67,7 +67,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -77,7 +77,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -87,7 +87,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -97,7 +97,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -107,7 +107,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -117,7 +117,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -127,7 +127,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -137,7 +137,7 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   },
   {
     "title": "what ever the course name is",
@@ -147,6 +147,6 @@
     "lessons": 34,
     "description": "lorem ipsum doler set amet",
     "price": 25,
-    "old price": 100
+    "oldPrice": 100
   }
 ]
