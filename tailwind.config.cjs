@@ -6,13 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    container: {
-      center: true,
-      padding: '4rem'
-    },
     colors: {
-      'blue': '#1c3879',
-      'white': '#ffffff'
+      blue: '#1c3879',
+      white: '#fff',
+      gray: '#7c7c7c'
     }
   },
   plugins: [],
