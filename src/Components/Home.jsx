@@ -1,21 +1,27 @@
 import React from "react";
+
+import Course from "./Course";
+import Review from "./Review";
+
 import heroBanner from "../assets/hero.svg";
 import chooseImage from "../assets/choose.svg";
+
 import courseData from "../coursesData.json";
-import Course from "./Course";
+import reviewData from "../reviewData.json";
 
 const Home = () => {
 	const topCourse = courseData.slice(0, 4);
 
 	return (
-		<div className="container px-16 py-4">
+		<div className="px-16 py-4">
 			{/* hero section */}
-			<header className="flex items-center my-4 justify-between">
+			<header className="flex mt-16 items-center justify-between">
 				<div className="header-description">
-					<h1 className="text-4xl font-extrabold">
-						Welcome To, <span className="text-blue">programmingDojo()</span>
+					<h1 className="text-3xl font-extrabold">
+						Welcome To, <br />
+						<span className="text-primary">Programming Dojo</span>
 					</h1>
-					<p className="text-gray-200 font-medium mt-3">Learn programming for your dream job</p>
+					<p className="text-darkGray font-medium mt-3">Hello coding Ninjas this is your personal dojo to enhance your coding power.</p>
 				</div>
 				<div className="hero-image">
 					<img src={heroBanner} alt="hero banner" className="w-3/4 mx-auto" />
@@ -44,10 +50,17 @@ const Home = () => {
 							<Course course={course}></Course>
 						))}
 					</div>
-					<button className="bg-blue rounded text-white px-4 py-2 hover:opacity-80 relative left-1/2 -translate-x-1/2">All Courses</button>
+					<button className="bg-primary rounded text-white px-4 py-2 relative left-1/2 -translate-x-1/2 hover:opacity-80">All Courses</button>
 				</section>
 				{/* review */}
-				<section></section>
+				<section>
+					<h2 className="text-2xl font-bold text-center my-8">What's peaple says about us</h2>
+					<div className="flex justify-around">
+						{reviewData.map(review => (
+							<Review review={review} />
+						))}
+					</div>
+				</section>
 			</main>
 		</div>
 	);

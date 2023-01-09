@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Charlene E. Sims",
+    "image": "https://i.postimg.cc/MTVnWMtN/female4.jpg",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non magna eget tortor commodo vestibulum. Praesent vel eros at nisl aliquam tempus. Nam tempus euismod luctus. Etiam vehicula finibus dolor.",
+    "designation": "Software Engineer"
+  },
+  {
+    "name": "Lindsay S. Rucker",
+    "image": "https://i.postimg.cc/BQdRFjCM/male1.jpg",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non magna eget tortor commodo vestibulum. Praesent vel eros at nisl aliquam tempus. Nam tempus euismod luctus. Etiam vehicula finibus dolor.",
+    "designation": "Junior Developer"
+  },
+  {
+    "name": "Richard W. Phillips",
+    "image": "https://i.postimg.cc/sgzd8BZ1/male6.jpg",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non magna eget tortor commodo vestibulum. Praesent vel eros at nisl aliquam tempus. Nam tempus euismod luctus. Etiam vehicula finibus dolor.",
+    "designation": "Chief Engineer"
+  }
+]
