@@ -1,19 +1,43 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
 	return (
 		<nav className="bg-primary flex justify-between items-center py-4 px-16 mx-auto w-full">
 			<div>
-				<a href="#" className="text-white text-2xl font-bold logo">
+				<a
+					href="#"
+					className="text-white text-2xl font-bold logo"
+				>
 					programmingDojo()
 				</a>
 			</div>
 			<div className="links">
 				<ul className="flex justify-around items-center">
-					<li className="mx-3 text-white font-semibold hover:rounded hover:px-2 hover:py-1 hover:bg-[#bd912c]">Home</li>
-					<li className="mx-3 text-white font-semibold">Courses</li>
-					<li className="mx-3 text-white font-semibold">About us</li>
-					<li className="mx-3 text-white font-semibold">Contact Us</li>
+					<Link
+						to="/"
+						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
+					>
+						Home
+					</Link>
+					<Link
+						to="/courses"
+						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
+					>
+						Courses
+					</Link>
+					<Link
+						to="/about"
+						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
+					>
+						About us
+					</Link>
+					<Link
+						to="/contact"
+						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
+					>
+						Contact Us
+					</Link>
 				</ul>
 			</div>
 		</nav>

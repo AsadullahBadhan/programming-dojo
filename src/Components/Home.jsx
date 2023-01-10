@@ -24,7 +24,11 @@ const Home = () => {
 					<p className="text-darkGray font-medium mt-3">Hello coding Ninjas this is your personal dojo to enhance your coding power.</p>
 				</div>
 				<div className="hero-image">
-					<img src={heroBanner} alt="hero banner" className="w-3/4 mx-auto" />
+					<img
+						src={heroBanner}
+						alt="hero banner"
+						className="w-3/4 mx-auto"
+					/>
 				</div>
 			</header>
 			<main>
@@ -32,7 +36,11 @@ const Home = () => {
 				<section>
 					<h2 className="text-2xl font-bold text-center my-8">Why Choose Us</h2>
 					<div className="flex items-center justify-around">
-						<img src={chooseImage} alt="why choose us" className="w-60" />
+						<img
+							src={chooseImage}
+							alt="why choose us"
+							className="w-60"
+						/>
 						<ul className="list-disc">
 							<li>Team of industry experience teacher</li>
 							<li>Clear Graphics and HD prerocorded video</li>
@@ -42,7 +50,7 @@ const Home = () => {
 					</div>
 				</section>
 
-				{/* courses */}
+				{/*top courses */}
 				<section>
 					<h2 className="text-2xl font-bold text-center my-8">Top Courses</h2>
 					<div className="flex flex-wrap justify-around">

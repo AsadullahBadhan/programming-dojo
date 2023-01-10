@@ -1,5 +1,4 @@
 import React from "react";
-import hero from "../assets/hero.svg";
 
 const Courses = props => {
 	const { title, instructor, image, duration, lessons, price, oldPrice } = props.course;
@@ -10,7 +9,11 @@ const Courses = props => {
 	};
 	return (
 		<div className="w-80 bg-white rounded-md shadow-md p-4 mx-12 my-8">
-			<img src={hero} alt="" className="w-72 mx-auto" />
+			<img
+				src={image}
+				alt=""
+				className="w-72 mx-auto"
+			/>
 			<h3 className="text-2xl font-bold text-primary">{title}</h3>
 			<p className="text-darkGray">with {instructor}</p>
 			<p className="text-darkGray text-xs">
