@@ -1,20 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Courses = props => {
-	const { title, instructor, image, duration, lessons, price, oldPrice } = props.course;
+const Course = props => {
+	const { title, instructor, image, duration, lessons, price, oldPrice, course_code } = props.course;
 
 	const durationInHour = duration => {
 		const hour = Math.floor(duration / 60);
 		return `${hour} hour ${duration - hour * 60} minute`;
 	};
 	return (
-		<div className="w-80 bg-white rounded-md shadow-md p-4 mx-12 my-8">
-			<img
-				src={image}
-				alt=""
-				className="w-72 mx-auto"
-			/>
-			<h3 className="text-2xl font-bold text-primary">{title}</h3>
+		<div className="w-80 bg-white rounded-md shadow-md p-4 mx-12 my-8 flex flex-col justify-between ">
+			<div className="card-image">
+				<img
+					src={image}
+					alt=""
+					className=""
+				/>
+			</div>
+			<h3 className="text-2xl font-bold text-primary my-4">
+				<Link to={`/course/${course_code}`}>{title}</Link>
+			</h3>
 			<p className="text-darkGray">with {instructor}</p>
 			<p className="text-darkGray text-xs">
 				{lessons} lessons | {durationInHour(duration)}
@@ -30,4 +35,4 @@ const Courses = props => {
 	);
 };
 
-export default Courses;
+export default Course;

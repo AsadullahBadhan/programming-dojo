@@ -5,9 +5,10 @@
     "image": "https://i.postimg.cc/Gp75ftKk/next-logo.png",
     "duration": 382,
     "lessons": 34,
-    "description": "lorem ipsum doler set amet",
+    "description": "Aenean dictum dignissim lacus, at tempor urna tempus sed. Morbi at semper leo. Integer cursus porttitor orci id pulvinar. Nullam efficitur auctor ligula at pellentesque. Pellentesque habitant morbi tristique senectus.",
     "price": 10,
-    "oldPrice": 50
+    "oldPrice": 50,
+    "course_code": "next50"
   },
   {
     "title": "Advanced React",
@@ -15,9 +16,10 @@
     "image": "https://i.postimg.cc/MT0dSGbP/react.png",
     "duration": 757,
     "lessons": 128,
-    "description": "lorem ipsum doler set amet",
+    "description": "Phasellus bibendum, dui in bibendum pulvinar, elit velit pellentesque tellus, vel facilisis elit tortor ut mi. Ut vestibulum interdum efficitur. Nunc sollicitudin nibh quis nulla gravida, at fringilla leo imperdiet.",
     "price": 25,
-    "oldPrice": 100
+    "oldPrice": 100,
+    "course_code": "advance-react"
   },
   {
     "title": "HTML & CSS Crash Course",
@@ -25,9 +27,10 @@
     "image": "https://i.postimg.cc/cCXhv5zf/web-crash-course.png",
     "duration": 271,
     "lessons": 31,
-    "description": "lorem ipsum doler set amet",
+    "description": "In sed libero sed metus malesuada mollis vitae et dolor. Maecenas pulvinar risus lacus, et volutpat orci suscipit et. Vestibulum rutrum mollis hendrerit. Ut eleifend, felis vel vestibulum fringilla, felis.",
     "price": 10,
-    "oldPrice": 30
+    "oldPrice": 30,
+    "course_code": "basic-web"
   },
   {
     "title": "Learn UI/UX design",
@@ -35,9 +38,10 @@
     "image": "https://i.postimg.cc/XqVx70sV/ui-designer.png",
     "duration": 508,
     "lessons": 98,
-    "description": "lorem ipsum doler set amet",
+    "description": "Maecenas dictum faucibus tincidunt. Integer id ornare mauris. Donec malesuada tempus arcu, in dignissim lorem. Vivamus dignissim tortor in auctor semper. Maecenas in dui non augue cursus laoreet. Maecenas mattis.",
     "price": 20,
-    "oldPrice": 100
+    "oldPrice": 100,
+    "course_code": "ui-design"
   },
   {
     "title": "Nuxt.js 2 - Vue.js on Steroids",
@@ -45,9 +49,10 @@
     "image": "https://i.postimg.cc/dQTxWqyy/nuxtjs.png",
     "duration": 390,
     "lessons": 107,
-    "description": "lorem ipsum doler set amet",
+    "description": "Sed sollicitudin condimentum dolor, eu ultrices turpis placerat et. Aliquam pulvinar congue bibendum. Cras semper metus lacus, et porttitor odio tincidunt ut. Sed urna erat, egestas non rutrum id, volutpat.",
     "price": 19,
-    "oldPrice": 130
+    "oldPrice": 130,
+    "course_code": "nuxtjs"
   },
   {
     "title": "Laravel with Vue.js - FullStack Web Development",
@@ -55,98 +60,42 @@
     "image": "https://i.postimg.cc/x8HpqR2R/lavarel-vue.png",
     "duration": 1830,
     "lessons": 227,
-    "description": "lorem ipsum doler set amet",
+    "description": "Vestibulum ut egestas velit. Maecenas venenatis mollis leo, dictum sollicitudin est lacinia sit amet. Nam pharetra augue non massa mollis, ac consequat eros lacinia. Sed venenatis purus et dignissim imperdiet.",
     "price": 50,
-    "oldPrice": 100
+    "oldPrice": 100,
+    "course_code": "laravelwithvue"
   },
   {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
+    "title": "Introduction to Version Control with Git and Github",
+    "instructor": "SKILL CURBS",
+    "image": "https://i.postimg.cc/5yqK9j8w/undraw-version-control-re-mg66.png",
+    "duration": 256,
     "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
+    "description": "Suspendisse potenti. Proin mollis magna eget mauris aliquam, eu pellentesque nunc egestas. Aliquam dolor est, auctor eget hendrerit sodales, sagittis et diam. Curabitur viverra quam a gravida tincidunt. Orci varius.",
+    "price": 20,
+    "oldPrice": 60,
+    "course_code": "gitandgithub"
   },
   {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
+    "title": "The Complete Flutter Development Bootcamp with Dart",
+    "instructor": "Dr. Angela Yu",
+    "image": "https://i.postimg.cc/cCN5Nftx/undraw-flutter-dev-wvqj.png",
+    "duration": 1765,
+    "lessons": 217,
+    "description": "Sed sit amet consequat diam. Cras sagittis ipsum ac dolor rhoncus, sollicitudin mattis tortor laoreet. Vestibulum elementum risus sed diam congue luctus. Maecenas ullamcorper lorem sit amet erat condimentum lacinia.",
+    "price": 85,
+    "oldPrice": 100,
+    "course_code": "flutter"
   },
   {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
-  },
-  {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
-  },
-  {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
-  },
-  {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
-  },
-  {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
-  },
-  {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
-  },
-  {
-    "title": "what ever the course name is",
-    "instructor": "john doe",
-    "image": "image link",
-    "duration": 3000,
-    "lessons": 34,
-    "description": "lorem ipsum doler set amet",
-    "price": 25,
-    "oldPrice": 100
+    "title": "Gatsby.js Tutorial and Project Course",
+    "instructor": "John Smilga",
+    "image": "https://i.postimg.cc/3RGb6tRf/undraw-gatsbyjs-st4g.png",
+    "duration": 1320,
+    "lessons": 240,
+    "description": "Maecenas vulputate elit ac nunc fringilla consectetur. Praesent sed leo quis orci molestie placerat. Integer ante leo, laoreet eget felis nec, hendrerit laoreet enim. Etiam tincidunt ultricies felis ac placerat.",
+    "price": 60,
+    "oldPrice": 100,
+    "course_code": "gatsby"
   }
 ]

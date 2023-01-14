@@ -15,7 +15,7 @@ const Home = () => {
 	return (
 		<div className="px-16 py-4">
 			{/* hero section */}
-			<header className="flex mt-4 items-center justify-between">
+			<header className="flex items-center justify-between">
 				<div className="header-description">
 					<h1 className="text-3xl font-extrabold">
 						Welcome To, <br />

@@ -7,7 +7,10 @@ const Courses = () => {
 	return (
 		<div className="flex flex-wrap justify-around">
 			{courseData.map(course => (
-				<Course course={course} />
+				<Course
+					course={course}
+					key={course.course_code}
+				></Course>
 			))}
 		</div>
 	);

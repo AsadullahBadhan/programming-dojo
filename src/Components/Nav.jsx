@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
 	return (
-		<nav className="bg-primary flex justify-between items-center py-4 px-16 mx-auto w-full">
+		<nav className="bg-primary flex justify-between items-center py-4 px-16 w-full">
 			<div>
-				<a
-					href="#"
+				<Link
+					to="/"
 					className="text-white text-2xl font-bold logo"
 				>
 					programmingDojo()
-				</a>
+				</Link>
 			</div>
 			<div className="links">
 				<ul className="flex justify-around items-center">
