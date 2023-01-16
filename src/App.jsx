@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
 import CourseDetail from "./Components/CourseDetail";
 import Courses from "./Components/Courses";
 import Footer from "./Components/Footer";
@@ -22,6 +24,14 @@ function App() {
 				<Route
 					path="/course/:courseCode"
 					element={<CourseDetail></CourseDetail>}
+				/>
+				<Route
+					path="/about-us"
+					element={<About />}
+				/>
+				<Route
+					path="/contact"
+					element={<Contact />}
 				/>
 				<Route
 					path="*"

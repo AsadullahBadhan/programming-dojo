@@ -27,7 +27,7 @@ const Nav = () => {
 						Courses
 					</Link>
 					<Link
-						to="/about"
+						to="/about-us"
 						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
 					>
 						About us

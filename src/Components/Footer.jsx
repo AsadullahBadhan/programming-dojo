@@ -1,5 +1,5 @@
 import React from "react";
-import { BsEnvelope, BsEnvelopeFill, BsFacebook, BsTelephoneFill, BsTwitter } from "react-icons/bs";
+import { BsEnvelopeFill, BsFacebook, BsTelephoneFill, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
 	return (
@@ -44,14 +44,28 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className="flex flex-col items-start">
-					<label htmlFor="email" className="text-sm text-white font-medium">
+					<label
+						htmlFor="email"
+						className="text-sm text-white font-medium"
+					>
 						Email:
 					</label>
-					<input type="email" name="email" id="email" />
-					<label htmlFor="massege" className="mt-3 text-sm text-white font-medium">
+					<input
+						type="email"
+						name="email"
+						id="email"
+					/>
+					<label
+						htmlFor="massege"
+						className="mt-3 text-sm text-white font-medium"
+					>
 						Give Us your Feedback:
 					</label>
-					<textarea className="h-32 p-1 rounded" name="massege" id="massege" />
+					<textarea
+						className="h-32 p-1 rounded"
+						name="massege"
+						id="massege"
+					/>
 					<button className="bg-white mt-2 px-4 py-1 rounded-sm text-primary font-semibold">Send</button>
 				</div>
 			</div>

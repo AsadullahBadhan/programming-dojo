@@ -2,7 +2,9 @@
   {
     "title": "NextJs for Beginer",
     "instructor": "Mosh Hamedani",
+    "instructor_image": "https://i.postimg.cc/Yjcj1wtK/channels4-profile.jpg",
     "image": "https://i.postimg.cc/Gp75ftKk/next-logo.png",
+    "ratings": 4.8,
     "duration": 382,
     "lessons": 34,
     "description": "Aenean dictum dignissim lacus, at tempor urna tempus sed. Morbi at semper leo. Integer cursus porttitor orci id pulvinar. Nullam efficitur auctor ligula at pellentesque. Pellentesque habitant morbi tristique senectus.",
@@ -13,7 +15,9 @@
   {
     "title": "Advanced React",
     "instructor": "Bob Zirrol",
+    "instructor_image": "https://i.postimg.cc/TPTL7GgT/bob.jpg",
     "image": "https://i.postimg.cc/MT0dSGbP/react.png",
+    "ratings": 4.8,
     "duration": 757,
     "lessons": 128,
     "description": "Phasellus bibendum, dui in bibendum pulvinar, elit velit pellentesque tellus, vel facilisis elit tortor ut mi. Ut vestibulum interdum efficitur. Nunc sollicitudin nibh quis nulla gravida, at fringilla leo imperdiet.",
@@ -24,7 +28,9 @@
   {
     "title": "HTML & CSS Crash Course",
     "instructor": "Kevin Powell",
+    "instructor_image": "https://i.postimg.cc/76Yz6DZK/kevin.jpg",
     "image": "https://i.postimg.cc/cCXhv5zf/web-crash-course.png",
+    "ratings": 4.7,
     "duration": 271,
     "lessons": 31,
     "description": "In sed libero sed metus malesuada mollis vitae et dolor. Maecenas pulvinar risus lacus, et volutpat orci suscipit et. Vestibulum rutrum mollis hendrerit. Ut eleifend, felis vel vestibulum fringilla, felis.",
@@ -35,7 +41,9 @@
   {
     "title": "Learn UI/UX design",
     "instructor": "Gary Simon",
+    "instructor_image": "https://i.postimg.cc/rsRK0pXN/gary.jpg",
     "image": "https://i.postimg.cc/XqVx70sV/ui-designer.png",
+    "ratings": 4.2,
     "duration": 508,
     "lessons": 98,
     "description": "Maecenas dictum faucibus tincidunt. Integer id ornare mauris. Donec malesuada tempus arcu, in dignissim lorem. Vivamus dignissim tortor in auctor semper. Maecenas in dui non augue cursus laoreet. Maecenas mattis.",
@@ -46,7 +54,9 @@
   {
     "title": "Nuxt.js 2 - Vue.js on Steroids",
     "instructor": "Maximilian Schwarzmuller",
+    "instructor_image": "https://i.postimg.cc/8CwFx3mM/max.jpg",
     "image": "https://i.postimg.cc/dQTxWqyy/nuxtjs.png",
+    "ratings": 4.7,
     "duration": 390,
     "lessons": 107,
     "description": "Sed sollicitudin condimentum dolor, eu ultrices turpis placerat et. Aliquam pulvinar congue bibendum. Cras semper metus lacus, et porttitor odio tincidunt ut. Sed urna erat, egestas non rutrum id, volutpat.",
@@ -57,7 +67,9 @@
   {
     "title": "Laravel with Vue.js - FullStack Web Development",
     "instructor": "Eding Muhamad Saprudin",
+    "instructor_image": "https://i.postimg.cc/Jn2szkgh/eding.png",
     "image": "https://i.postimg.cc/x8HpqR2R/lavarel-vue.png",
+    "ratings": 4.6,
     "duration": 1830,
     "lessons": 227,
     "description": "Vestibulum ut egestas velit. Maecenas venenatis mollis leo, dictum sollicitudin est lacinia sit amet. Nam pharetra augue non massa mollis, ac consequat eros lacinia. Sed venenatis purus et dignissim imperdiet.",
@@ -68,7 +80,9 @@
   {
     "title": "Introduction to Version Control with Git and Github",
     "instructor": "SKILL CURBS",
+    "instructor_image": "https://i.postimg.cc/QMq5hVhB/logo.jpg",
     "image": "https://i.postimg.cc/5yqK9j8w/undraw-version-control-re-mg66.png",
+    "ratings": 4.4,
     "duration": 256,
     "lessons": 34,
     "description": "Suspendisse potenti. Proin mollis magna eget mauris aliquam, eu pellentesque nunc egestas. Aliquam dolor est, auctor eget hendrerit sodales, sagittis et diam. Curabitur viverra quam a gravida tincidunt. Orci varius.",
@@ -79,7 +93,9 @@
   {
     "title": "The Complete Flutter Development Bootcamp with Dart",
     "instructor": "Dr. Angela Yu",
+    "instructor_image": "https://i.postimg.cc/zBtgHML8/angela.jpg",
     "image": "https://i.postimg.cc/cCN5Nftx/undraw-flutter-dev-wvqj.png",
+    "ratings": 4.2,
     "duration": 1765,
     "lessons": 217,
     "description": "Sed sit amet consequat diam. Cras sagittis ipsum ac dolor rhoncus, sollicitudin mattis tortor laoreet. Vestibulum elementum risus sed diam congue luctus. Maecenas ullamcorper lorem sit amet erat condimentum lacinia.",
@@ -90,7 +106,9 @@
   {
     "title": "Gatsby.js Tutorial and Project Course",
     "instructor": "John Smilga",
+    "instructor_image": "https://i.postimg.cc/j55WTXM9/smigla.png",
     "image": "https://i.postimg.cc/3RGb6tRf/undraw-gatsbyjs-st4g.png",
+    "ratings": 4.7,
     "duration": 1320,
     "lessons": 240,
     "description": "Maecenas vulputate elit ac nunc fringilla consectetur. Praesent sed leo quis orci molestie placerat. Integer ante leo, laoreet eget felis nec, hendrerit laoreet enim. Etiam tincidunt ultricies felis ac placerat.",
