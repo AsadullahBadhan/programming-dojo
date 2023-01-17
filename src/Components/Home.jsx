@@ -8,6 +8,7 @@ import chooseImage from "../assets/choose.svg";
 
 import courseData from "../coursesData.json";
 import reviewData from "../reviewData.json";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 	const topCourse = courseData.slice(0, 4);
@@ -15,7 +16,7 @@ const Home = () => {
 	return (
 		<div className="px-16 py-4">
 			{/* hero section */}
-			<header className="flex items-center justify-between">
+			<header className="flex flex-col-reverse gap-4 items-center justify-between md:flex-row">
 				<div className="header-description">
 					<h1 className="text-3xl font-extrabold">
 						Welcome To, <br />
@@ -33,9 +34,9 @@ const Home = () => {
 			</header>
 			<main>
 				{/* choose us section */}
-				<section>
+				<section className="mt-16">
 					<h2 className="text-2xl font-bold text-center my-8">Why Choose Us</h2>
-					<div className="flex items-center justify-around">
+					<div className="flex flex-col-reverse gap-4 items-center justify-around md:flex-row md:gap-0">
 						<img
 							src={chooseImage}
 							alt="why choose us"
@@ -51,19 +52,21 @@ const Home = () => {
 				</section>
 
 				{/*top courses */}
-				<section>
+				<section className="mt-16">
 					<h2 className="text-2xl font-bold text-center my-8">Top Courses</h2>
-					<div className="flex flex-wrap justify-around">
+					<div className="grid grid-cols-1 sm:grid-cols-2">
 						{topCourse.map(course => (
 							<Course course={course}></Course>
 						))}
 					</div>
-					<button className="bg-primary rounded text-white px-4 py-2 relative left-1/2 -translate-x-1/2 hover:opacity-80">All Courses</button>
+					<button className="bg-primary rounded text-white px-4 py-2 relative left-1/2 -translate-x-1/2 hover:opacity-80">
+						<Link to="/courses">All Courses</Link>
+					</button>
 				</section>
 				{/* review */}
-				<section>
+				<section className="mt-16">
 					<h2 className="text-2xl font-bold text-center my-8">What's peaple says about us</h2>
-					<div className="flex justify-around">
+					<div className="flex flex-col gap-16 items-center justify-around md:flex-row md:items-stretch">
 						{reviewData.map(review => (
 							<Review review={review} />
 						))}
