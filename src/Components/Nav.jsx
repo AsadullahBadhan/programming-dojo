@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
 	return (
@@ -14,30 +14,31 @@ const Nav = () => {
 			</div>
 			<div className="links">
 				<ul className="flex justify-around items-center">
-					<Link
+					<NavLink
 						to="/"
 						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
+						// className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
 					>
 						Home
-					</Link>
-					<Link
+					</NavLink>
+					<NavLink
 						to="/courses"
 						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
 					>
 						Courses
-					</Link>
-					<Link
+					</NavLink>
+					<NavLink
 						to="/about-us"
 						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
 					>
 						About us
-					</Link>
-					<Link
+					</NavLink>
+					<NavLink
 						to="/contact"
 						className="text-white font-semibold px-2 ml-4 hover:rounded hover:py-1 hover:bg-white hover:opacity-70 hover:text-primary cursor-pointer"
 					>
 						Contact Us
-					</Link>
+					</NavLink>
 				</ul>
 			</div>
 		</nav>

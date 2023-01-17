@@ -7,13 +7,13 @@ const About = () => {
 			<div className="mt-24">
 				<Link
 					to="/"
-					className="text-primary text-6xl font-bold logo"
+					className="text-primary text-5xl font-bold logo"
 				>
 					programmingDojo()
 				</Link>
 			</div>
 
-			{/* why choose us */}
+			{/* who we are */}
 			<section className="mt-8 flex">
 				<div className="w-1/2">
 					<h4 className="text-xl font-semibold">Who We Are</h4>
