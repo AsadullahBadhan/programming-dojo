@@ -54,7 +54,7 @@ const Home = () => {
 				{/*top courses */}
 				<section className="mt-16">
 					<h2 className="text-2xl font-bold text-center my-8">Top Courses</h2>
-					<div className="grid grid-cols-1 sm:grid-cols-2">
+					<div className="flex flex-wrap justify-center">
 						{topCourse.map(course => (
 							<Course course={course}></Course>
 						))}
