@@ -52,14 +52,14 @@ const Home = () => {
 				</section>
 
 				{/*top courses */}
-				<section className="mt-16">
-					<h2 className="text-2xl font-bold text-center my-8">Top Courses</h2>
-					<div className="flex flex-wrap justify-center">
+				<section className="mt-16 flex flex-col items-center">
+					<h2 className="text-2xl font-bold my-8">Top Courses</h2>
+					<div className="flex flex-wrap justify-center w-4/5">
 						{topCourse.map(course => (
 							<Course course={course}></Course>
 						))}
 					</div>
-					<button className="bg-primary rounded text-white px-4 py-2 relative left-1/2 -translate-x-1/2 hover:opacity-80">
+					<button className="bg-primary rounded text-white px-4 py-2 hover:opacity-80">
 						<Link to="/courses">All Courses</Link>
 					</button>
 				</section>

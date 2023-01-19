@@ -9,7 +9,7 @@ const Course = props => {
 		return `${hour} hour ${duration - hour * 60} minute`;
 	};
 	return (
-		<div className="max-w-xs bg-white rounded-md shadow-md p-4 my-8 flex flex-col justify-between md:mx-8 md:max-w-sm">
+		<div className="max-w-md bg-white rounded-md shadow-md p-4 my-8 flex flex-col justify-between md:mx-8 md:max-w-xs">
 			<div className="card-image">
 				<img
 					src={image}
