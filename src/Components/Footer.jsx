@@ -46,8 +46,8 @@ const Footer = () => {
 				</div>
 				{/* logo */}
 				<div className="flex flex-col-reverse items-center gap-4 md:flex-col md:items-start md:order-first">
-					<h1 className="logo text-white text-xl font-bold md:text-3xl">programmingDojo()</h1>
-					<div className="mt-8 w-2/3">
+					<h1 className="logo text-white text-2xl font-bold md:text-3xl">programmingDojo()</h1>
+					<div className="mt-8 w-full sm:w-1/3 md:w-2/3">
 						<ul className="flex justify-between">
 							<li className="text-white text-3xl">
 								<a href="">

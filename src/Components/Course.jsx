@@ -24,7 +24,7 @@ const Course = props => {
 			<p className="text-darkGray text-xs">
 				{lessons} lessons | {durationInHour(duration)}
 			</p>
-			<div className="flex mt-4 justify-between items-center md:flex-row md:items-center">
+			<div className="flex flex-col mt-4 justify-between md:flex-row md:items-center">
 				<div className="flex">
 					<h3 className="text-xl font-bold text-primary">${price}</h3>
 					<h3 className="text-xl font-bold ml-2 line-through decoration-darkGray text-darkGray">${oldPrice}</h3>

@@ -14,7 +14,7 @@ const Home = () => {
 	const topCourse = courseData.slice(0, 4);
 
 	return (
-		<div className="px-16 py-4">
+		<div className="px-8 py-4 md:px-16">
 			{/* hero section */}
 			<header className="flex flex-col-reverse gap-4 items-center justify-between md:flex-row">
 				<div className="header-description">
@@ -54,7 +54,7 @@ const Home = () => {
 				{/*top courses */}
 				<section className="mt-16 flex flex-col items-center">
 					<h2 className="text-2xl font-bold my-8">Top Courses</h2>
-					<div className="flex flex-wrap justify-center w-4/5">
+					<div className="flex flex-wrap justify-center md:w-4/5">
 						{topCourse.map(course => (
 							<Course course={course}></Course>
 						))}
