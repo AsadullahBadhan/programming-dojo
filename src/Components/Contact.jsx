@@ -3,7 +3,7 @@ import { BsEnvelopeFill, BsFacebook, BsTelephoneFill, BsTwitter } from "react-ic
 
 const Contact = () => {
 	return (
-		<div className="px-16 mx-auto">
+		<div className="px-4 mx-auto md:px-16">
 			<h1 className="mt-24 text-primary text-4xl font-bold logo md:text-5xl">programmingDojo()</h1>
 			<div className="mt-16 p-6 bg-[#d9d9d9] rounded-md md:p-16 md:mt-32">
 				<h3 className="text-3xl text-primary md:text-right md:4xl">Get In Touch</h3>

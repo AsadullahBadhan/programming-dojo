@@ -56,7 +56,10 @@ const Home = () => {
 					<h2 className="text-2xl font-bold my-8">Top Courses</h2>
 					<div className="flex flex-wrap justify-center md:w-4/5">
 						{topCourse.map(course => (
-							<Course course={course}></Course>
+							<Course
+								course={course}
+								key={course.course_code}
+							></Course>
 						))}
 					</div>
 					<button className="bg-primary rounded text-white px-4 py-2 hover:opacity-80">

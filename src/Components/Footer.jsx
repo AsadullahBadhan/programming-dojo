@@ -14,7 +14,7 @@ const Footer = () => {
 						Email:
 					</label>
 					<input
-						className="w-full"
+						className="w-3/4 md:w-full"
 						type="email"
 						name="email"
 						id="email"
@@ -26,7 +26,7 @@ const Footer = () => {
 						Give Us your Feedback:
 					</label>
 					<textarea
-						className="h-32 w-full p-1 rounded"
+						className="h-32 w-3/4 p-1 rounded md:w-full"
 						name="massege"
 						id="massege"
 					/>

@@ -29,7 +29,7 @@ const Course = props => {
 					<h3 className="text-xl font-bold text-primary">${price}</h3>
 					<h3 className="text-xl font-bold ml-2 line-through decoration-darkGray text-darkGray">${oldPrice}</h3>
 				</div>
-				<button className="bg-primary rounded text-white px-4 py-2 hover:opacity-80">Enroll Now</button>
+				<button className="bg-primary w-1/2 mt-2 rounded text-white px-4 py-2 hover:opacity-80">Enroll Now</button>
 			</div>
 		</div>
 	);
