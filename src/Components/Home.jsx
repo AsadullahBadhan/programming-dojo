@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import Course from "./Course";
 import Review from "./Review";
@@ -11,7 +11,12 @@ import reviewData from "../reviewData.json";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-	const topCourse = courseData.slice(0, 4);
+	const [courses, setCourses] = useState([]);
+
+	useEffect(() => {
+		setCourses(courseData);
+	}, []);
+	const topCourse = courses.slice(0, 4);
 
 	return (
 		<div className="px-8 py-4 md:px-16">
